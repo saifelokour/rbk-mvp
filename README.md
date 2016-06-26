@@ -46,6 +46,25 @@ Below are APIs that are free. If you find an API that requires you to pay, somet
   - [ ] Optional: Bootstrap CSS
 - [ ] Use CSS to style your MVP and make it look understandable and appealing.
 - [ ] Run 'npm init' on this repo and follow the directions in your command line
+  * This will ask you a bunch of questions, and then write a `package.json` for you.
+  * The first question will be what the name of your app is:
+  ```bash
+    Yan-Fans-MacBook-Pro:rbk-mvp yfan$ npm init
+    This utility will walk you through creating a package.json file.
+    It only covers the most common items, and tries to guess sensible defaults.
+
+    See `npm help json` for definitive documentation on these fields
+    and exactly what they do.
+
+    Use `npm install <pkg> --save` afterwards to install a package and
+    save it as a dependency in the package.json file.
+
+    Press ^C at any time to quit.
+    name: (rbk-mvp)
+  ```
+    * The name in the parentheses (rbk-mvp) is what the default name is. If you like it, press enter. If not, type in what you want and then press enter.
+    * The next few questions will be about version number (you choose), a short description, your 'starting' file (an entry point -- you can ignore this), a test command (you can ignore this), a git repository (just press enter), keywords (single words that describe the category of your MVP), author (you), and license (ignore this---just press enter). At the very end, it will ask you if you want to create this and show you your package.json. Press enter to create!
+  * You can read more about npm init [here](https://nodesource.com/blog/your-first-nodejs-package/).
 - [ ] Must use a third-party API. Here are some examples:
   * [Google Maps](https://developers.google.com/maps/web/)
   * [Any of the other Google APIs](https://developers.google.com/apis-explorer/#p/)
@@ -84,6 +103,16 @@ We understand how difficult it is to create an MVP!
 
 Here are three things we want to see from you:
 
-* Effort -- this is the most important thing. We want to see effort---this means being curious. This means working hard. This means staying positive about your skills. How much have you tried really understanding and learning the concepts and tools?
-* Organization -- did you follow an iterative/incremental development process? Was the process of creating your MVP strategic? Or was it a mess? How do you manage your time?
-* Understanding -- how well do you understand what we have learned?
+* Effort -- this is the most important thing. We want to see effort.
+  * This means being curious.
+  * This means working hard.
+  * This means having a positive attitude about your skills and when you come across challenges.
+  * How much have you tried really understanding and learning the concepts and tools?
+* Organization
+  * How do you manage your time?
+  * Did you follow each of the basic requirements above?
+  * Did you follow an iterative/incremental development process?
+  * Was the process of creating your MVP strategic? Or was it a mess?
+* Understanding
+  * How well do you understand what we have learned?
+  * Do you make the effort to improve?
