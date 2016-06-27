@@ -17,28 +17,28 @@ Once the project moves into development, the press release can be used as a touc
  -->
 
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Interactive Slack Games
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > Slack users who want to have a little fun.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > Wouldn't be cool if there were games integrated into Slack. It could give teams a way to have a little fun in between tasks. It might also give users a way to break the ice, and get to know their colleagues.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > New Slack users need an icebreaker.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > There's nothing more fun than playing games together.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > "My employees hate me, so I had to approve the game."
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Just open the game channel and start the game.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "Finally a little fun. Death by coding was starting to feel more and more likely."
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > What are you waiting for? Just play the game!
