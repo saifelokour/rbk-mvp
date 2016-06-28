@@ -10,13 +10,13 @@ class App extends React.Component {
 
 	render(){
 	  return <div>
-	    <div className="col-md-11">
+	    <div className="sector">
 	      <MessageList />
 	    </div>
-	    <div className="col-md-7">
+	    <div className="sector">
 	      <Games />
 	    </div>
-	    <div className="col-md-5">
+	    <div className="sector">
 	      <MessageFilter />
 	    </div>
 	  </div>

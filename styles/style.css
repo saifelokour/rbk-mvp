@@ -1,0 +1,94 @@
+@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+body {
+  text-align: center;
+  padding: 0 25px;
+  font-family: arial, sans-serif;
+
+}
+
+.sector {
+  margin: auto;
+  padding: 20px 20px;
+}
+
+.message-list {
+
+}
+
+.message {
+  width: 500px;
+  margin: auto;  
+  padding: 5px;
+  text-align: left;
+  margin-top: 10px;  
+  margin-bottom: 5px;
+  background-color: #eee;
+  padding: 5px 6px;
+  border: solid #ddd;
+  border-width: 0 1px 1px 1px;  
+
+}
+
+.message .username {
+
+
+}
+
+.message .username:hover {
+
+
+}
+
+.message .text {
+
+
+}
+
+.game-list {
+  padding: 5px;
+  margin-bottom: 5px;
+
+}
+
+.game {
+  padding: 5px;
+  margin-bottom: 5px;
+
+}
+
+.game:hover {
+
+
+}
+
+.input-output {
+
+
+}
+
+.input-messages {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.input-field {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid #ccc;
+
+}
+
+.output-message {
+  width: 500px;
+  margin: auto;
+  text-align: left;
+  background: white;
+  margin-top: 40px;
+  padding: 50px 60px;
+  border: solid #ddd;
+  border-width: 1 1px 1px 1px;
+
+}

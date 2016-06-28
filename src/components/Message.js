@@ -1,8 +1,8 @@
 var Message = (props) => (
 
-	<div classname="message">
-		<div classname="username">username test</div>
-		<div classname="text">text test</div>
+	<div className="message">
+		<div className="username">username</div>
+		<div className="text">text</div>
 	</div>
 )
 

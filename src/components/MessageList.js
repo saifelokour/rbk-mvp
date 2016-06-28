@@ -1,6 +1,9 @@
 var MessageList = (props) => (
 
-	<div classname="messages-list">
+	<div className="messages-list">
+		<Message />
+		<Message />
+		<Message />
 		<Message />
 	</div>
 )

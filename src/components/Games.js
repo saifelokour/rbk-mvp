@@ -1,7 +1,7 @@
 var Games = (props) => (
 
-	<div classname="game-list">
-		<button classname="game" >Game test</button>
+	<div className="game-list">
+		<button className="game" >Game</button>
 	</div>
 )
 
