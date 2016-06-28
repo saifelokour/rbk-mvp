@@ -3,7 +3,7 @@ class App extends React.Component {
 	constructor(props) {
 		super(props);
 
-		//this.state = {messages: , message: };
+		this.state = {messages: exampleMessageData};
 	}  
 
 
@@ -11,13 +11,13 @@ class App extends React.Component {
 	render(){
 	  return <div>
 	    <div className="sector">
-	      <MessageList />
+	      <MessageList messages={this.state.messages}/>
 	    </div>
 	    <div className="sector">
-	      <Games />
+	      <Games game={{game: "Concequences"}}/>
 	    </div>
 	    <div className="sector">
-	      <MessageFilter />
+	      <MessageFilter messages={this.state.messages}/>
 	    </div>
 	  </div>
 	}

@@ -10,9 +10,19 @@ body {
 .sector {
   margin: auto;
   padding: 20px 20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
-.message-list {
+.messages-list {
+  width: 600px;
+  height: 300px;
+  border: solid #ddd;
+  border-width: 1 3px 3px 3px;
+  overflow-y: scroll;
+  max-width: 600px;
+  max-height: 300px;
 
 }
 
@@ -30,14 +40,18 @@ body {
 
 }
 
-.message .username {
+.message:hover {
+  box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.25);
+}
 
+.message .username {
+  font-weight: 800;
 
 }
 
-.message .username:hover {
-
-
+.message .time-stamp {
+  text-align: right;
+  font-size: 10px;
 }
 
 .message .text {

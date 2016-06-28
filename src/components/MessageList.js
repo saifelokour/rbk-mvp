@@ -1,10 +1,7 @@
 var MessageList = (props) => (
 
 	<div className="messages-list">
-		<Message />
-		<Message />
-		<Message />
-		<Message />
+		{props.messages.map(message => <Message message={message}/> )}
 	</div>
 )
 
