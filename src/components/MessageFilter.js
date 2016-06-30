@@ -1,29 +1,29 @@
-var MessageFilter = (props) => (
+var MessageFilter = ({results, output}) => (
 
 	<div className="input-output">
 		<table className="input-messages">
 			<tr>
-			<td className="input-field">input1</td>
-			<td className="input-field">input2</td>
-			<td className="input-field">input3</td>
-			<td className="input-field">input4</td>
+			<td className="input-field">{results[0][0]}</td>
+			<td className="input-field">{results[1][0]}</td>
+			<td className="input-field">{results[2][0]}</td>
+			<td className="input-field">{results[3][0]}</td>
 			</tr>
 			<tr>
-			<td className="input-field">input5</td>
-			<td className="input-field">input6</td>
-			<td className="input-field">input7</td>
-			<td className="input-field">input8</td>
+			<td className="input-field">{results[4][0]}</td>
+			<td className="input-field">{results[5][0]}</td>
+			<td className="input-field">{results[6][0]}</td>
+			<td className="input-field">{results[7][0]}</td>
 			</tr>
 		</table>
 
 		<div className="output-message">
-			output test
+			{output}
 		</div>
 	</div>
 )
 
 MessageFilter.propTypes = {
-  messages: React.PropTypes.array.isRequired
+  results: React.PropTypes.array.isRequired
 };
 
 // In the ES6 spec, files are "modules" and do not share a top-level scope

@@ -14,7 +14,7 @@ window.users = [["U153VLSRK","abeer-sy"],["U121VRHA5","adrienne_rbk"],["U13ECC92
 ["U14UWHH8B","salomari"],["U14KDJDK4","sarya"],["U11LVLXHT","ssegrest"],["U13FC4WS2","talha"],["U13PZG3HA","tawfik.kahwaje"],
 ["U13ED25V1","weaam-shahwan"],["U0ZDATGPL","yanfan"],["U151HNNFK","zarad"],["USLACKBOT","slackbot"]]
 
-var messages = {
+var newMessages = {
     "ok": true,
     "oldest": "1000",
     "messages": [
@@ -50,14 +50,6 @@ var messages = {
     ],
     "has_more": false,
     "is_limited": false
-}.messages.filter(element => element.subtype === undefined).map(element => [element.user, element.text, element.ts]);
+}
 
-var result = messages.map(element => {
-	var tuple;
-	var theDate = new Date(element[2] * 1000);
-	var dateString = theDate.toGMTString();
-	tuple = [users.filter(e => e[0] === element[0])[0][1], element[1], dateString.slice(0, dateString.length-4)]
-	return tuple
-})
-
-window.exampleMessageData = result;
+window.exampleMessageData = organizeMessages(newMessages);

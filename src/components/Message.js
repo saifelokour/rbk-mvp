@@ -1,7 +1,7 @@
 var Message = (props) => (
 
 	<div className="message">
-		<div className="username">@{props.message[0]}</div>
+		<div className="username">{props.message[0]}</div>
 		<div className="text">{props.message[1]}</div>
 		<div className="time-stamp">{props.message[2]}</div>
 	</div>
