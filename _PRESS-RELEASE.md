@@ -17,28 +17,28 @@ Once the project moves into development, the press release can be used as a touc
  -->
 
 ## Heading ##
-  > Interactive Slack Games
+  > Slack Message Translator
 
 ## Sub-Heading ##
-  > Slack users who want to have a little fun.
+  > Slack users who have a language barrier.
 
 ## Summary ##
-  > Wouldn't be cool if there were games integrated into Slack. It could give teams a way to have a little fun in between tasks. It might also give users a way to break the ice, and get to know their colleagues.
+  > If you need to translate something to another language, just use the translate key word.
 
 ## Problem ##
-  > New Slack users need an icebreaker.
+  > Slack teams that speak diffrent languages.
 
 ## Solution ##
-  > There's nothing more fun than playing games together.
+  > A way to translate messages directly on Slack.
 
 ## Quote from You ##
-  > "My employees hate me, so I had to approve the game."
+  > "No need to go to another website to translate something."
 
 ## How to Get Started ##
-  > Just open the game channel and start the game.
+  > Use the translate channel, and the key word 'translate:'.
 
 ## Customer Quote ##
-  > "Finally a little fun. Death by coding was starting to feel more and more likely."
+  > "This makes things a lot easy, and helps communication."
 
 ## Closing and Call to Action ##
-  > What are you waiting for? Just play the game!
+  > You have no more excuses not to talk to you coworkers.
